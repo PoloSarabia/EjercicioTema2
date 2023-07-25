@@ -14,7 +14,12 @@ public class EjercicioTema2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.printf("%10.2f%n",precioConIva(1500.20d));
+    }
+    
+    static double precioConIva(double precio){
+        //En mexico el iva es del 16%
+        return precio * 1.16;
     }
     
 }
